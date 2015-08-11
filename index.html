@@ -13,16 +13,18 @@
 	<div class="main">
 		<div class="instructions">
 			<h1>Instructions</h1>
-			<h2>Click on Ryu to fire Hadouken<br>
-			Hold down x to look cool</h2>
+			<h2>Click on Ryu to fire Hadouken.<br>
+			Hold down "x" to stike a cool pose!</h2>
 		</div>
-		<div class="ryu">
-			<div class="ryu-still"></div>
-			<div class="ryu-ready"></div>
-			<div class="ryu-throwing"></div>
-			<div class="ryu-cool"></div>
+		<div class="ryu-container">
+			<div class="ryu">
+				<div style="display:block;" class="ryu-still"></div>
+				<div style="display:none;" class="ryu-ready"></div>
+				<div style="display:none;" class="ryu-throwing"></div>
+				<div style="display:none;" class="ryu-cool"></div>
+			</div>
 		</div>
-		<div class="hadouken"></div>
+		<div style="display:none;" class="hadouken"></div>
 		<audio id="hadouken-sound" src="sound/hadouken.mp3">
 	</div>
 </body>

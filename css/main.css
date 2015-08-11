@@ -1,5 +1,6 @@
 body {
 	background-color: black;
+
 }
 
 .main {
@@ -7,10 +8,13 @@ body {
 	margin-top: 110px;
 	padding-left: 100px;
 	min-width: 1200px;
-	height: 500px;
+	min-height: 500px;
 	position: relative;
 	z-index: 1;
+	overflow: hidden;
+
 }
+
 
 .instructions {
 	float:left;
@@ -30,10 +34,17 @@ h2 {
 	margin-top: -0.5em;
 }
 
+
+.hadouken, 
+.ryu-cool, 
+.ryu-ready, 
+.ryu-still, 
+.ryu-throwing {
+	background-repeat: no-repeat;
+}
+
 .ryu {
 	float: left;
-	width: 659px;
-	height: 494px;
 }
 
 .ryu-cool,
@@ -74,12 +85,12 @@ h2 {
 	background-image: url('../images/hadouken.gif');
 	width: 156px;
 	height: 90px;
-	display: none;
-	float: left;
 	position: relative;
-	z-index: 10;
 	top: 170px;
 	left: -180px;
+	z-index: 10;
+	display: none;
+	float: left;
 }
 
 /*
